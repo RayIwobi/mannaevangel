@@ -1,0 +1,590 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="images/logo.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap5" />
+	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/glightbox.min.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+
+	<style>
+	#sliding-images {
+		position: relative;
+		z-index: 1;
+	}
+	
+	#header {
+		position: relative;
+		z-index: 0;
+		background-color: #0e8996;
+		margin-bottom: 0px;
+	}
+	#miko {
+
+		background-color:white;
+	}
+
+
+	/* Styling for the popup */
+	.popup {
+			position: relative;
+			display: inline-block;
+			cursor: pointer;
+		}
+	
+		/* Styling for the popup text */
+		.popup .popuptext {
+			visibility: hidden;
+			width: 160px;
+			background-color: #555;
+			color: #fff;
+			text-align: center;
+			border-radius: 6px;
+			padding: 8px 0;
+			position: absolute;
+			z-index: 1;
+			bottom: 125%;
+			left: 50%;
+			margin-left: -80px;
+		}
+	
+		/* Show the popup text when hovering over the popup container */
+		.popup:hover .popuptext {
+			visibility: visible;
+		}
+	</style>
+		
+
+	<title>MannaEvangel</title>
+</head>
+<body >
+
+	<div class="site-mobile-menu site-navbar-target" >
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav" id="header">
+		<div class="container">
+			<div class="site-navigation">
+				<a href="index.html" class="logo m-0 float-left"><img src=images/logo.png width="50" height="50"  alt=mannaevangel>  Manna Evangel Faith Assembly</a>
+
+				<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="aboutus.html">About us</a></li>
+					<!-- <li class="has-children">
+						<a href="sermons.html">About us</a>
+						<ul class="dropdown">
+							<li><a href="sermons.html">Sermons</a></li>
+							<li><a href="sermons-single.html">Sermons Single</a></li>
+							<li class="has-children">
+								<a href="#">Dropdown</a>
+								<ul class="dropdown">
+									<li><a href="#">Sub Menu One</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li> -->
+					<li><a href="ministry.html">Ministries</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<!-- <li class="cta-button"><a href="contact.html">Request a prayer</a></li> -->
+				</ul>
+
+				<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+					<span></span>
+				</a>
+				
+			</div>
+		</div>
+	</nav>
+
+<!-------------slider top-------------------------------------------------->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<!-- <ol class="carousel-indicators">
+	  <li data-target="carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	  <li data-target="carouselExampleIndicators" data-slide-to="1"></li>
+	  <li data-target="carouselExampleIndicators" data-slide-to="2"></li>
+	</ol> -->
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img class="d-block w-100" src="images/ban1.jpg" alt="First slide">
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="images/ban2.jpg" alt="Second slide">
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="images/d1.jpg" alt="Third slide">
+	  </div>
+	</div>
+	<!-- <a class="carousel-control-prev" href="carouselExampleIndicators" role="button" data-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="carouselExampleIndicators" role="button" data-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Next</span>
+	</a> -->
+  </div> 
+
+
+	<!-------------end slider top-------------------------------------------------->
+	<!---------------1st sec---------------------------------------------->
+	<div class="section">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-4" data-aos="fade-up">
+					<span class="subheading mb-4 d-block">About us</span>
+					<h2 class="mb-4 heading">Welcome to Our Church</h2>
+					<p>At Manna Evangel Faith Assembly, we are a vibrant community dedicated to spreading the gospel, love, kindness, and faith.
+
+						Here, you'll find a warm and welcoming atmosphere where everyone is valued and accepted just as they are. 
+						Whether you're exploring your spirituality, seeking fellowship, or simply curious about what we offer, you are always welcome!</p>
+					<p class="mt-5"><a href="aboutus.html" class="btn btn-primary">Know more about us</a></p>
+				</div>
+				<div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+					<!-- <img src="images/landscape-1.jpg" alt="Image" class="img-fluid rounded"> -->
+					<div class="row">
+						<div class="col-6 col-sm-6 col-md-4 col-lg-4 mb-4">
+							<img src="images/sq-1.jpg" alt="Image" class="img-fluid rounded">
+						</div>
+						<div class="col-6 col-sm-6 col-md-4 col-lg-4 mb-4">
+							<img src="images/sq-2.jpg" alt="Image" class="img-fluid rounded">
+						</div>
+						<div class="col-6 col-sm-6 col-md-4 col-lg-4 mb-4">
+							<img src="images/sq-3.jpg" alt="Image" class="img-fluid rounded">
+						</div>
+						<div class="col-6 col-sm-6 col-md-4 col-lg-4 mb-4">
+							<img src="images/sq-4.jpg" alt="Image" class="img-fluid rounded">
+						</div>
+						<div class="col-6 col-sm-6 col-md-4 col-lg-4 mb-4">
+							<img src="images/sq-5.jpg" alt="Image" class="img-fluid rounded">
+						</div>
+						<div class="col-6 col-sm-6 col-md-4 col-lg-4 mb-4">
+							<img src="images/sq-6.jpg" alt="Image" class="img-fluid rounded">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-------------------end of 1st sec------------------->
+	<!-----------------------recent sermons------------------------------>
+	<div class="section" id="miko">
+		<div class="container">
+			<div class="row mb-4 text-center">
+				<div class="col-lg-12" data-aos="fade-up">
+					<span class="subheading d-block mb-4">Sermons</span>
+					<h2 class="mb-4 heading">Recent Sermons</h2>
+				</div>
+			</div>
+			<div class="row g-5">
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+					<div class="sermon-entry">
+						<a href="sermon-single.html"><img src="images/ev1a.jpg" alt="Image" class="img-fluid mb-3 rounded"></a>
+						<div class="sermon-body">
+							<span class="date"><!--15 Jan 2020--> <span class="mx-2">&bullet;</span> By Pastor Akanmu </span>
+							<h3 class="mb-2"><a href="message1.html">Resurrection; The game changer</a></h3>
+							<p class="mb-5">Prelude:  It is amazing to see how other religions or other Faiths 
+								have copied many things from Christianity; ranging from our ordinances...</p>
+							<p><a href="message1.html" class="btn btn-primary btn-sm">Read more</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+					<div class="sermon-entry">
+						<a href="sermon-single.html"><img src="images/rect-img-3.jpg" alt="Image" class="img-fluid mb-3 rounded"></a>
+						<div class="sermon-body">
+							<span class="date"><!--15 Jan 2020--> <span class="mx-2">&bullet;</span> By Pastor Akanmu </span>
+							<h3 class="mb-2"><a href="message2.html">Ye are the light of the world</a></h3>
+							<p class="mb-5">Prelude: One of the most profound statements ever made by the Lord Jesus 
+								is the one about believers being the light of the world... </p>
+							<p><a href="message2.html" class="btn btn-primary btn-sm">Read more</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+					<div class="sermon-entry">
+						<a href="sermon-single.html"><img src="images/dv.jpg" alt="Image" class="img-fluid mb-3 rounded"></a>
+						<div class="sermon-body">
+							 <span class="date"><!--15 Jan 2020--> <span class="mx-2">&bullet;</span> By Pastor Akanmu </span> 
+							<h3 class="mb-2"><a href="message3.html">In who's image are you?</a></h3>
+							<p class="mb-5">Prelude: Our Lord Jesus had unique ways of fixing the Pharisees and 
+								scribes each time they tried to trap him in His words...</p>
+							<p><a href="message3.html" class="btn btn-primary btn-sm">Read more</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!---------------------end of recent sermons---------------------------------------------->
+	
+	<!----------------------why us---------------------------------------------------->
+	<div class="section bg-secondary">
+		<div class="container">
+			<div class="row ustify-content-between align-items-center">
+				<div class="col-lg-5" data-aos="fade-up">
+					<span class="subheading d-block mb-4 text-white">Why Us</span>
+					<h2 class="heading text-white">Keep Your Faith</h2>
+				</div>
+				
+			</div>
+			<div class="row align-items-center g-5">
+				<div class="col-lg-6" data-aos="fade-up">
+					<a href="https://www.youtube.com/watch?v=mwtbEGNABWU" class="video-bg glightbox">
+						<!-- <span class="icon"><span class="icon-play"></span></span> -->
+						<img src="images/landscape-1.jpg" alt="Image" class="img-fluid rounded">
+					</a>
+				</div>
+				<div class="col-lg-5 ms-auto" data-aos="fade-up" data-aos-delay="100">
+					<div class="row g-4">
+						<div class="col-lg-6 feature-1">
+							<h3 class="text-white">Live by Faith</h3>
+							<p class="opac-white-5">Living by Faith is doing things the way they should be done. </p>
+						</div>
+						<div class="col-lg-6 feature-1">
+							<h3 class="text-white">Love one another</h3>
+							<p class="opac-white-5">At our Church we practise the love of God as instructed in the bible </p>
+						</div>
+
+						<div class="col-lg-6 feature-1">
+							<h3 class="text-white">Be courageous</h3>
+							<p class="opac-white-5">If you live in this time and age, you have to be courageous and strong. </p>
+						</div>
+						<div class="col-lg-6 feature-1">
+							<h3 class="text-white">Seal of God</h3>
+							<p class="opac-white-5">Always endeavor to carry the presence of God which keeps away evil.</p>
+						</div>
+
+					</div>
+					<div class="row mt-5">
+						<div class="col-lg-12">
+							<a href="contact.html" class="btn btn-primary">Send us your prayer request</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!---------------------- end why us---------------------------------------------------->
+
+	<div class="section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-7 mx-auto text-center mb-5" data-aos="fade-up">
+					<span class="subheading mb-4 d-block">Testimonials</span>
+					<h2 class="mb-4 heading">Living Testimonies</h2>
+				</div>
+
+				<div id="testimonial-nav" class="controls testimonial-nav">
+					<span class="prev" data-controls="prev" tabindex="-1">Prev</span>
+					<span class="next" data-controls="next" tabindex="-1">Next</span>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="testimonial-slide-center-wrap" data-aos="fade-up" data-aos-delay="100">
+			<div class="testimonial-slide-center testimonial-center" id="testimonial-center">
+
+				<div class="item">
+					<div class="testimonial-item">
+						<div  class="testimonial-item-inner">
+							<h3 class="testimonial-heading">BRAND NEW KIDNEYS</h3>
+							<blockquote>
+								My case was terrible and looking really bad, a kidney 
+								transparent seems to be the way out, but the money to 
+								do that was scary! Then a healing service was announced 
+								in Evangel Bauchi Church. At the service the man of God 
+								prayed for me not knowing how severe my case was, but alas 
+								God turned my captivity around and gave me two brand new kidneys! 
+								The next time I went for check up even the consultants were 
+								shocked to see a miraculous reversal for Good. Today am OK, no 
+								symptoms, no pain, I am made whole completely.
+							</blockquote>
+							<div class="testimonial-author">
+								<img src="images/lady.png" alt="Image" class="img-fluid">
+								<strong class="d-block">Mummy J.</strong>
+								<span>Bauchi Branch</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="testimonial-item">
+						<div  class="testimonial-item-inner">
+							<h3 class="testimonial-heading">GOD OF MIRACLES</h3>
+							<blockquote>
+								After my marriage my wife could not conceive, 
+								we waited and prayed, no way, until we attended a 
+								Special program organized for those trusting God 
+								for the fruit of the womb in Evangel Headquarters 
+								Church, Gombe. After the program my wife conceived 
+								and we had our first baby! God indeed answers prayers. 
+							</blockquote>
+							<div class="testimonial-author">
+								<img src="images/man.png" alt="Image" class="img-fluid">
+								<strong class="d-block">Bro. ZH</strong>
+								<span>Evangel School Staff</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="testimonial-item">
+						<div  class="testimonial-item-inner">
+							<h3 class="testimonial-heading">HEALED COMPLETELY</h3>
+							<blockquote>
+								I am a product of divine intervention. I suffered from strange 
+								illness; invisible Lizard like creatures crawls all over my body 
+								for months, medically they could not discover anything and all I 
+								tried failed! At a healing service organized by Evangel Headquarters 
+								the man of God by prophetic utterance called out my case specifically 
+								and right at that moment all strange crawling ceased! That single 
+								experience has turned my life around, today I bear witness across 
+								Nations testifying to God's goodness. 
+							</blockquote>
+							<div class="testimonial-author">
+								<img src="images/man.png" alt="Image" class="img-fluid">
+								<strong class="d-block">Rev. George Ndukwe Eleke Ogele</strong>
+								<span>Church Member</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="item">
+					<div class="testimonial-item">
+						<div  class="testimonial-item-inner">
+							<h3 class="testimonial-heading">MARRIED AT LAST</h3>
+							<blockquote>
+								Dissappointing and treachery characterised my earlier 
+								relationships, but God took over the matter as I handed 
+								it over to him, and to cut long story short I am now married 
+								to the love of my life, Jesus is good to me.
+							</blockquote>
+							<div class="testimonial-author">
+								<img src="images/man.png" alt="Image" class="img-fluid">
+								<strong class="d-block">Bro. MJ</strong>
+								<span>Church Member</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="item">
+					<div class="testimonial-item">
+						<div  class="testimonial-item-inner">
+							<h3 class="testimonial-heading">GODS BLESSINGS CAME IN CASCADES</h3>
+							<blockquote>
+								After Youth service I decided to go into private business, 
+								God blessed it, but opportunities opened up in a commercial 
+								bank, I just applied not knowing anyone to push it, God did 
+								the miraculous he made a way and I was chosen among many; God 
+								made me to excel! Other blessings & prospect started flowing in. 
+								Thanks to all who prayed for me at each stage of selection.
+							</blockquote>
+							<div class="testimonial-author">
+								<img src="images/man.png" alt="Image" class="img-fluid">
+								<strong class="d-block">Sister Blessing</strong>
+								<span>Church Member</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
+
+	</div>
+
+
+	<div class="section bg-white mx-2 mx-md-5 sec-services-wrap">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
+					<span class="subheading mb-4 d-block">Our Services</span>
+					<h2 class="mb-4 heading">Church Services</h2>
+
+				</div>
+			</div>
+
+			<div class="row g-5">
+				<div class="col-lg-4" data-aos="fade-up" data-aos-delay="0">
+					<div class="service text-center">
+						<span class="icon-home mb-4 d-block"></span>
+						<h3 class="heading">Worship</h3>
+						<p>In our worship services, we create an atmosphere where hearts are stirred, souls are refreshed, and spirits are renewed. Worship at Manna Evangel Faith Assembly is characterized by authenticity and sincerity. </p>
+						
+					</div>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+					<div class="service text-center">
+						<span class="icon-leaf mb-4 d-block"></span>
+						<h3 class="heading">Baptism</h3>
+						<p>Baptism holds a central place in the spiritual journey of believers at Manna Evangel Faith Assembly. It symbolizes not only a public declaration of one's faith but also a profound spiritual transformation. </p>
+						
+					</div>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+					<div class="service text-center">
+						<span class="icon-book mb-4 d-block"></span>
+						<h3 class="heading">Exhortation</h3>
+						<p>Exhortation plays a vital role in the life of the community at Manna Evangel Faith Assembly. It is the practice of encouraging, uplifting, and motivating one another to live out our faith boldly and faithfully. </p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="section sec-cta bg-secondary">
+		<div class="container">
+			<div class="row align-items-center" data-aos="fade-up">
+				<div class="col-lg-9 text-center text-md-start mb-4 mb-md-0">
+					<h2 class="heading text-white">Get better by hearing our sermons</h2>
+				</div>		
+				<div class="col-lg-3 text-center text-md-end" data-aos="fade-up" data-aos-delay="100">
+					<a href="contact.html" class="btn btn-primary py-3 px-5">Join Us</a>
+				</div>
+
+			</div>		
+		</div>		
+	</div>
+
+
+
+		<!--------------FOOTER SECTION------------------>
+		<div class="site-footer bg-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="widget">
+							<h3>Contact</h3>
+							<h3>MANNA EVANGEL FAITH ASSEMBLY</h3>
+							<h3>Estb: Feb. 1989</h3>
+							<address>No 1, Evangel Close, Oppst Fadama 3, Buba Shongo, Gombe</address>
+							<address>P.O.Box 960, Gombe</address>
+							<ul class="list-unstyled links">
+								<li><a>MEDIA:<br/> +234 703 220 5835</a></li>
+								<li><a>SECRETARIAT:<br/> +234 803 776 5145</a></li>
+							</ul>
+								<h3>COUNSELLING AND PRAYERS:</h3>
+							<ul class="list-unstyled links">
+								<li><a>MISSIONS:<br/> +234 803 768 7262</a></li>
+							</ul>
+								<!--<li><a href="mailto:info@mydomain.com">info@mydomain.com</a></li>-->
+							
+						</div> <!-- /.widget -->
+					</div> <!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<div class="widget">
+							<h3>Sources</h3>
+							<ul class="list-unstyled float-start links">
+								<li><a href="aboutus.html">Vission</a></li>
+								<li><a href="aboutus.html">Mission</a></li>
+								<li><a href="aboutus.html">History</a></li>
+								<li><a href="history.html">Registration</a></li>
+								<li><a href="history.html">Jubilee</a></li>
+								<li><a href="history.html">Genesis</a></li>
+							</ul>
+							<div class="widget">
+							<ul class="list-unstyled float-start links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="aboutus.html">About us</a></li>
+								<li><a href="ministry.html">Ministeries</a></li>
+								<li><a href="events.html">Gallery</a></li>
+								<li><a href="contact.html">Contact us</a></li>
+							</ul>
+						</div>
+						</div> <!-- /.widget -->
+					</div> <!-- /.col-lg-4 -->
+	
+					
+					<div class="col-lg-4">
+						<div class="widget">
+							<h3>Ministeries of the Church</h3>
+							
+								<address><a href="ministry.html">Evangel Group of Schools</a></address>
+								<address><a href="ministry.html">Evangel Free Schools</a></address>
+								<address><a href="ministry.html">Evangel Leadership Bible School</a></address>
+								<address><a href="ministry.html">Evangel Missions</a></address>
+								<address><a href="ministry.html">Evangel Outreach and Church Planting Dept.</a></address>
+								<address><a href="ministry.html">Apostolic Faith Group</a></address>
+								<address><a href="ministry.html">December Prayer Camp</a></address>
+								<address><a href="ministry.html">Jesus Students Congress</a></address>
+							
+							<h3 style="color:black"><strong>Connect with us on:</strong></h3>
+							<ul class="list-unstyled social">
+								<li><a href="https://www.facebook.com/profile.php?id=61558634182968"><span class="icon-facebook"></span></a></li>
+								<!-- <li><a href="#"><span class="icon-instagram"></span></a></li>
+								<li><a href="#"><span class="icon-twitter"></span></a></li>
+								<li><a href="#"><span class="icon-linkedin"></span></a></li>
+								<li><a href="#"><span class="icon-pinterest"></span></a></li>
+								<li><a href="#"><span class="icon-dribbble"></span></a></li> -->
+							</ul>
+						</div> <!-- /.widget -->
+					</div> <!-- /.col-lg-4 -->
+				</div> <!-- /.row -->
+	
+			
+				
+	
+				<div class="row mt-5">
+					<div class="col-12 text-center">
+						<div class="popup">
+						<div class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; <span class="popuptext" id="myPopup">Call me : +234 7060758339</span>Designed by <a>Techlod</a></div> 
+						</div>
+					</div>
+				</div>
+			</div> <!-- /.container -->
+		</div> <!-- /.site-footer -->
+	
+		 <!--------------END OF FOOTER SECTION------------------>
+
+
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/glightbox.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/custom.js"></script>
+
+</body>
+</html>

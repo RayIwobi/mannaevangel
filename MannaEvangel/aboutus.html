@@ -1,0 +1,503 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="images/logo.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap5" />
+	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/glightbox.min.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<style>
+	#sliding-images {
+		position: relative;
+		z-index: 2;
+	}
+	
+	#header {
+		position: relative;
+		z-index: 0;
+		background-color: #0e8996;
+		margin-bottom: 0px;
+	}
+
+
+		/* Styling for the popup */
+		.popup {
+			position: relative;
+			display: inline-block;
+			cursor: pointer;
+		}
+	
+		/* Styling for the popup text */
+		.popup .popuptext {
+			visibility: hidden;
+			width: 160px;
+			background-color: #555;
+			color: #fff;
+			text-align: center;
+			border-radius: 6px;
+			padding: 8px 0;
+			position: absolute;
+			z-index: 1;
+			bottom: 125%;
+			left: 50%;
+			margin-left: -80px;
+		}
+	
+		/* Show the popup text when hovering over the popup container */
+		.popup:hover .popuptext {
+			visibility: visible;
+		}
+
+		.justify{
+			text-align:justify;
+		}
+	</style>
+		
+
+	<title>MannaEvangel</title>
+</head>
+<body >
+
+	<div class="site-mobile-menu site-navbar-target" >
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav" id="header">
+		<div class="container">
+			<div class="site-navigation">
+				<a href="index.html" class="logo m-0 float-left"><img src=images/logo.png width="50" height="50"  alt=mannaevangel>  Manna Evangel Faith Assembly</a>
+
+				<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+					<li><a href="index.html">Home</a></li>
+					<li class="active"><a href="aboutus.html">About us</a></li>
+					<!-- <li class="has-children">
+						<a href="sermons.html">About us</a>
+						<ul class="dropdown">
+							<li><a href="sermons.html">Sermons</a></li>
+							<li><a href="sermons-single.html">Sermons Single</a></li>
+							<li class="has-children">
+								<a href="#">Dropdown</a>
+								<ul class="dropdown">
+									<li><a href="#">Sub Menu One</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li> -->
+					<li><a href="ministry.html">Ministries</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<!-- <li class="cta-button"><a href="contact.html">Request a prayer</a></li> -->
+				</ul>
+
+				<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+					<span></span>
+				</a>
+				
+			</div>
+		</div>
+	</nav>
+
+<!-------------slider top-------------------------------------------------->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<!-- <ol class="carousel-indicators">
+	  <li data-target="carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	  <li data-target="carouselExampleIndicators" data-slide-to="1"></li>
+	  <li data-target="carouselExampleIndicators" data-slide-to="2"></li>
+	</ol> -->
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img class="d-block w-100" src="images/ban1.jpg" alt="First slide">
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="images/ban2.jpg" alt="Second slide">
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="images/d1.jpg" alt="Third slide">
+	  </div>
+	</div>
+	<!-- <a class="carousel-control-prev" href="carouselExampleIndicators" role="button" data-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="carouselExampleIndicators" role="button" data-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Next</span>
+	</a> -->
+  </div> 
+
+
+	<!-------------end slider top-------------------------------------------------->
+
+	<div class="section bg-white mx-2 mx-md-5 sec-services-wrap">
+		<div class="container">
+		
+		<div class="intro-text" data-aos="fade-up">
+			<div class="is-preload">
+			<div id="page-wrapper">
+	
+	
+				<!-- Main -->
+					<section class="wrapper style1">
+						<div class="container">
+							<div class="row gtr-200">
+								<div class="col-8 col-12-narrower">
+									<div id="content">
+	
+										<!-- Content -->
+	
+											<article>
+												<header>
+													<h2 class="mb-4 heading">About Us</h2>
+													<p>At Manna Evangel Faith Assembly, we are a vibrant community dedicated to spreading love, kindness, and faith. Here, you'll find a warm and welcoming atmosphere where everyone is valued and accepted just as they are. Whether you're exploring your spirituality, seeking fellowship, or simply curious about what we offer, you are always welcome!</p>
+												</header>
+	
+												<span class="image featured"><img src="images/logo.png" alt=""  width="350" height="300"/></span>
+	
+												<br/>
+												<br/>
+												<p class="justify">At Manna Evangel Faith Assembly, we are also passionate about serving others and making 
+													a difference in the world. Whether through outreach programs, community service initiatives, 
+													or missions work, we are dedicated to extending God's love and compassion to those in need. 
+													By actively engaging with the needs of our local and global communities, we aim to be agents 
+													of positive change and transformation.</p>
+	
+												<h3>Our Vision</h3>
+												<p>Preach, teach, reach the whole world with the wholesome Word of eternal kingdom impact</p>
+												
+												<h3>Our Mission</h3>
+												<p class="justify">To reach the nations through strategic evangelism, discipleship, leadership development,
+												   prayer for revivals, planting churches and establishing Christian educational institutions 
+												   and cross-cultural missions											   
+												</p><br/>
+	
+												<h3>Our History</h3>
+												<strong>THE GENESIS:</strong><br/>
+													<p class="justify">In the year 1981 a handful of zealous Christian Youth Corpers 
+													   serving the Nation in Gombe Township met regularly to have constant 
+													   fellowship weekly at the residence of Brother Clement Anegbe (late) 
+													   who was also on Youth Service with Nasara Motors then. On completion 
+													   his compulsory one year youth service he took up an appointment with 
+													   the Federal College of Education Technical Gombe as an instructor at 
+													   the Technical Dept. of the college.</p>
+													   <h4><a href="history.html" class="btn btn-primary">Know more</a></h4>
+											</article>
+	
+									</div>
+								</div>
+								<div class="col-4 col-12-narrower">
+									<div id="sidebar">
+	
+										<!-- Sidebar -->
+	
+											<section>
+												<h3>Join Us</h3>
+												<p class="justify">We invite you to join us on this journey of faith and discovery. 
+												   Whether you are seeking spiritual nourishment, meaningful connections, 
+												   or simply a place to belong, you are welcome here at Manna Evangel Faith 
+												   Assembly. Together, let us continue to grow in grace and share the boundless 
+												   love of God with the world</p>
+												<footer>
+													<!--<a href="#" class="button">Continue Reading</a>-->
+												</footer>
+											</section>
+	
+											<section>
+												<h3>Ministries of the Church</h3>
+												<ul class="links">
+													<li><a href="ministry.html">Evangel Group of Schools</a></li>
+													<li><a href="ministry.html">Evangel Free Schools</a></li>
+													<li><a href="ministry.html">Evangel Leadership Bible School</a></li>
+													<li><a href="ministry.html">Evangel Missions</a></li>
+													<li><a href="ministry.html">Evangel Outreach and Church Planting Dept.</a></li>
+													<li><a href="ministry.html">Apostolic Faith Group</a></li>
+													<li><a href="ministry.html">December Prayer Camp</a></li>
+													<li><a href="ministry.html">Jesus Students Congress</a></li>
+												</ul>
+												<footer>
+													<!--<a href="#" class="button">More Random Links</a>-->
+												</footer>
+											</section>
+	
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+	
+	
+				<div>
+			</div>
+		</div>
+	
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	<!--------------------------------------------------------------------------->
+	
+	<div class="section">
+		<div class="container">
+			<div class="row mb-4 text-center">
+				<div class="col-lg-12" data-aos="fade-up">				
+					<h2 class="mb-4 heading">Meet our pastors</h2>
+				</div>
+			</div>
+			<div class="row g-5">
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+					<div class="sermon-entry">
+						<a"><img src="images/ev1.jpg" alt="Image" class="img-fluid mb-3 rounded"></a>
+						<div class="sermon-body">
+							<h3 class="mb-2"><a href="#">Rev. Abraham Akanmu-Adeyemo <br/> <strong>Presiding Pastor</strong></a></h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+					<div class="sermon-entry">
+						<a><img src="images/ev2a.jpg" alt="Image" class="img-fluid mb-3 rounded"></a>
+						<div class="sermon-body">
+							<h3 class="mb-2"><a href="#">Pastor Elijah Oladayo Akinkunmi<br/><strong>Asst. Presiding Pastor</strong></a></h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+					<div class="sermon-entry">
+						<a><img src="images/ev3a.jpg" alt="Image" class="img-fluid mb-3 rounded"></a>
+						<div class="sermon-body">
+							<h3 class="mb-2"><a href="#">Pastor Ezekiel Aderemi Ojo <br/> <strong>Provincial Pastor </strong></a><br/>Alpha Province</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	
+	
+	<div > <!--class="section", should be in the div to give space-->
+		<br/>
+		<br/>
+		<div class="container">
+			<div class="row mb-4 text-center">
+				<div class="col-lg-12" data-aos="fade-up">
+					
+				</div>
+			</div>
+			<div class="row g-5">
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+					<div class="sermon-entry">
+						<a"><img src="images/ev4a.jpg" alt="Image" class="img-fluid mb-3 rounded"></a>
+						<div class="sermon-body">
+							<h3 class="mb-2"><a href="#">Pastor Olatayo Christopher Jonathan<br/> <strong>Provincial Pastor</strong></a><br/>Life Gate Province</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+					<div class="sermon-entry">
+						<a><img src="images/ev5a.jpg" alt="Image" class="img-fluid mb-3 rounded"></a>
+						<div class="sermon-body">
+							<h3 class="mb-2"><a href="#">Pastor Samuel Ekeh<br/> <strong>Provincial Pastor</strong></a><br/>Jubilee Province</h3>
+						</div>
+					</div>
+				</div>
+	
+			</div>
+	</div>
+	
+	
+	<!---------------------------------------------------------------------------->
+	
+		<div class="section bg-white mx-2 mx-md-5 sec-services-wrap">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
+						<span class="subheading mb-4 d-block">Our Services</span>
+						<h2 class="mb-4 heading">Church Services</h2>
+	
+					</div>
+				</div>
+	
+				<div class="row g-5">
+					<div class="col-lg-4" data-aos="fade-up" data-aos-delay="0">
+						<div class="service text-center">
+							<span class="icon-home mb-4 d-block"></span>
+							<h3 class="heading">Worship</h3>
+							<p>In our worship services, we create an atmosphere where hearts are stirred, souls are refreshed, 
+								and spirits are renewed. Worship at Manna Evangel Faith Assembly is characterized by authenticity and sincerity. </p>
+							
+						</div>
+					</div>
+					<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+						<div class="service text-center">
+							<span class="icon-leaf mb-4 d-block"></span>
+							<h3 class="heading">Baptism</h3>
+							<p>Baptism holds a central place in the spiritual journey of believers at Manna Evangel Faith Assembly. 
+								It symbolizes not only a public declaration of one's faith but also a profound spiritual transformation </p>
+							
+						</div>
+					</div>
+					<div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+						<div class="service text-center">
+							<span class="icon-book mb-4 d-block"></span>
+							<h3 class="heading">Exhortation</h3>
+							<p>Exhortation plays a vital role in the life of the community at Manna Evangel Faith Assembly. It is the 
+								practice of encouraging, uplifting, and motivating one another to live out our faith boldly and faithfully. </p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	
+	
+		<div class="section sec-cta bg-secondary">
+			<div class="container">
+				<div class="row align-items-center" data-aos="fade-up">
+					<div class="col-lg-9 text-center text-md-start mb-4 mb-md-0">
+						<h2 class="heading text-white">Get better by hearing our sermons</h2>
+					</div>		
+					<div class="col-lg-3 text-center text-md-end" data-aos="fade-up" data-aos-delay="100">
+						<a href="contact.html" class="btn btn-primary py-3 px-5">Join Us</a>
+					</div>
+	
+				</div>		
+			</div>		
+		</div>
+	
+	
+		<!--------------FOOTER SECTION------------------>
+		<div class="site-footer bg-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="widget">
+							<h3>Contact</h3>
+							<h3>MANNA EVANGEL FAITH ASSEMBLY</h3>
+							<h3>Estb: Feb. 1989</h3>
+							<address>No 1, Evangel Close, Oppst Fadama 3, Buba Shongo, Gombe</address>
+							<address>P.O.Box 960, Gombe</address>
+							<ul class="list-unstyled links">
+								<li><a>MEDIA:<br/> +234 703 220 5835</a></li>
+								<li><a>SECRETARIAT:<br/> +234 803 776 5145</a></li>
+							</ul>
+								<h3>COUNSELLING AND PRAYERS:</h3>
+							<ul class="list-unstyled links">
+								<li><a>MISSIONS:<br/> +234 803 768 7262</a></li>
+							</ul>
+								<!--<li><a href="mailto:info@mydomain.com">info@mydomain.com</a></li>-->
+							
+						</div> <!-- /.widget -->
+					</div> <!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<div class="widget">
+							<h3>Sources</h3>
+							<ul class="list-unstyled float-start links">
+								<li><a href="aboutus.html">Vission</a></li>
+								<li><a href="aboutus.html">Mission</a></li>
+								<li><a href="aboutus.html">History</a></li>
+								<li><a href="history.html">Registration</a></li>
+								<li><a href="history.html">Jubilee</a></li>
+								<li><a href="history.html">Genesis</a></li>
+							</ul>
+							<div class="widget">
+							<ul class="list-unstyled float-start links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="aboutus.html">About us</a></li>
+								<li><a href="ministry.html">Ministeries</a></li>
+								<li><a href="events.html">Gallery</a></li>
+								<li><a href="contact.html">Contact us</a></li>
+							</ul>
+						</div>
+						</div> <!-- /.widget -->
+					</div> <!-- /.col-lg-4 -->
+	
+					
+					<div class="col-lg-4">
+						<div class="widget">
+							<h3>Ministeries fo the Church</h3>
+							
+								<address><a href="ministry.html">Evangel Group of Schools</a></address>
+								<address><a href="ministry.html">Evangel Free Schools</a></address>
+								<address><a href="ministry.html">Evangel Leadership Bible School</a></address>
+								<address><a href="ministry.html">Evangel Missions</a></address>
+								<address><a href="ministry.html">Evangel Outreach and Church Planting Dept.</a></address>
+								<address><a href="ministry.html">Apostolic Faith Group</a></address>
+								<address><a href="ministry.html">December Prayer Camp</a></address>
+								<address><a href="ministry.html">Jesus Students Congress</a></address>
+							
+	
+							<ul class="list-unstyled social">
+								<li><a href="https://www.facebook.com/profile.php?id=61558634182968"><span class="icon-facebook"></span></a></li>
+								<!-- <li><a href="#"><span class="icon-instagram"></span></a></li>
+								<li><a href="#"><span class="icon-twitter"></span></a></li>
+								<li><a href="#"><span class="icon-linkedin"></span></a></li>
+								<li><a href="#"><span class="icon-pinterest"></span></a></li>
+								<li><a href="#"><span class="icon-dribbble"></span></a></li> -->
+							</ul>
+						</div> <!-- /.widget -->
+					</div> <!-- /.col-lg-4 -->
+				</div> <!-- /.row -->
+	
+			
+				
+	
+				<div class="row mt-5">
+					<div class="col-12 text-center">
+						<div class="popup">
+						<div class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; <span class="popuptext" id="myPopup">Call me : +234 7060758339</span>Designed by <a>Techlod</a></div> 
+						</div>
+					</div>
+				</div>
+			</div> <!-- /.container -->
+		</div> <!-- /.site-footer -->
+	
+		 <!--------------END OF FOOTER SECTION------------------>
+		
+	
+	
+	
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/tiny-slider.js"></script>
+		<script src="js/glightbox.min.js"></script>
+		<script src="js/aos.js"></script>
+		<script src="js/navbar.js"></script>
+		<script src="js/counter.js"></script>
+		<script src="js/custom.js"></script>
+
+	
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	
+</body>
+</html>

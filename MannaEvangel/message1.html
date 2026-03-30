@@ -1,0 +1,465 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="images/logo.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap5" />
+	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/glightbox.min.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+	<!-- <link rel="stylesheet" href="odin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="odin/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+	<link rel="stylesheet" href="odin/css/style.css"> -->
+
+	<title>Mannaevangel</title>
+	<style>
+		/* Styling for the popup */
+		.popup {
+			position: relative;
+			display: inline-block;
+			cursor: pointer;
+		}
+	
+		/* Styling for the popup text */
+		.popup .popuptext {
+			visibility: hidden;
+			width: 160px;
+			background-color: #555;
+			color: #fff;
+			text-align: center;
+			border-radius: 6px;
+			padding: 8px 0;
+			position: absolute;
+			z-index: 1;
+			bottom: 125%;
+			left: 50%;
+			margin-left: -80px;
+		}
+	
+		/* Show the popup text when hovering over the popup container */
+		.popup:hover .popuptext {
+			visibility: visible;
+		}
+
+		#sliding-images {
+		position: relative;
+		z-index: 1;
+	}
+	
+	#header {
+		position: relative;
+		z-index: 0;
+		background-color: #0e8996;
+		margin-bottom: 0px;
+	}
+	#miko {
+
+		background-color:white;
+	}
+	.justify{
+		text-align:justify;
+	}
+	</style>
+</head>
+<body >
+
+	<div class="site-mobile-menu site-navbar-target" >
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav" id="header">
+		<div class="container">
+			<div class="site-navigation">
+				<a href="index.html" class="logo m-0 float-left"><img src=images/logo.png width="50" height="50"  alt=mannaevangel>  Manna Evangel Faith Assembly</a>
+
+				<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+					<li><a href="index.html">Home</a></li>
+					<li  class="active"><a href="aboutus.html">About us</a></li>
+					<!-- <li class="has-children">
+						<a href="sermons.html">About us</a>
+						<ul class="dropdown">
+							<li><a href="sermons.html">Sermons</a></li>
+							<li><a href="sermons-single.html">Sermons Single</a></li>
+							<li class="has-children">
+								<a href="#">Dropdown</a>
+								<ul class="dropdown">
+									<li><a href="#">Sub Menu One</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li> -->
+					<li><a href="ministry.html">Ministries</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<!-- <li class="cta-button"><a href="contact.html">Request a prayer</a></li> -->
+				</ul>
+
+				<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+					<span></span>
+				</a>
+				
+			</div>
+		</div>
+	</nav>
+
+<!-------------slider top-------------------------------------------------->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<!-- <ol class="carousel-indicators">
+	  <li data-target="carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	  <li data-target="carouselExampleIndicators" data-slide-to="1"></li>
+	  <li data-target="carouselExampleIndicators" data-slide-to="2"></li>
+	</ol> -->
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img class="d-block w-100" src="images/ban1.jpg" alt="First slide">
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="images/ban2.jpg" alt="Second slide">
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="images/d1.jpg" alt="Third slide">
+	  </div>
+	</div>
+	<!-- <a class="carousel-control-prev" href="carouselExampleIndicators" role="button" data-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="carouselExampleIndicators" role="button" data-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Next</span>
+	</a> -->
+  </div> 
+
+
+	<!-------------end slider top-------------------------------------------------->
+
+<!--------------------------------------------------------->
+	<!--Who We Are-->
+	<div style="padding-bottom: 0;"  ></div>
+	<div class="section bg-white mx-2 mx-md-5 sec-services-wrap">
+	<div class="container">
+	
+	<div class="intro-text" data-aos="fade-up">
+		<div class="is-preload">
+		<div id="page-wrapper">
+
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-8 col-12-narrower">
+								<div id="content">
+
+									<!-- Content -->
+
+										<article>
+											<header>
+												<span class="image featured"><img src="images/logo.png" alt="" width="150" height="100"/></span><br/><br/>
+												<h2 class="mb-4 heading" style="font-size: 20px;">TOPIC:  RESURRECTION; THE GAME CHANGER</h2><br/>
+												<strong>SCRIPTURES: Matt 28:1-10; Lk 24:1-8; 19-26. 1 Cor.2:1-8; 15: 42-50./Col 3:1-3; John 10:18.</strong><br/><br/>
+												<p class="justify"> <strong>Prelude:</strong> It is amazing to see how other religions or other Faiths have copied many things from 
+													Christianity; ranging from our ordinances and doctrines, practices, "festivals",  many things 
+													have been "xeroxed" or replicated to give their's a semblance or similarity to ours. Alas! one 
+													distinctive thing they can't attempt to copy in our Faith is the truth about Resurrection! 
+													Resurrection is an operation of God (Col. 2:12) and a fulfilment of the scriptures; Psalmist 
+													said, "thou will not allow thine Holy one to see corruption!" (Psm 16:10).  Christ said he has 
+													the power to lay down his life  and to take it up again!(John 10:17-18). The doctrine of resurrection 
+													has been seriously attacked by many. Prominent among the protagonist of resurrection is one Islamic 
+													apologist, late Ahmed Dedat, of South Africa. During his life time he severely criticized the facts 
+													of resurrection and  described it has an hoax, fake and incomprehensible!  Indeed it is, beyond 
+													science and ability of men, Christ rose from the dead and the power of the grave could not hold him 
+													captive. Resurrection set us apart from other Religions and put us at the vintage edge over and above 
+													them. Not only that Christ is risen, we also have the hope of resurrection. Hallelujah!
+
+													<p><strong>DISTINCTIVENESS:</strong> </p>
+												   
+												   <p>1. Resurrection is not just a physical thing but also has spiritual implications. Romans 6:3-10.</p>
+												   
+												   <p>2. When Christ rose from the dead, believers too rose with him. Col. 3:1-2.</p>
+												   
+												   <p>3. If Christ has not risen we are of all men most miserable. 1 Cor. 15:13-19.</p>
+												   
+												   <p>4. Resurrection is by the power of God and not man made, it can't be faked or copied. Col 2:12</p>
+												   
+												   <p>5. Only those who are in Christ will rise with him at the last trump. 1Thes 4:13-17.</p>
+												   
+												   <p>6. Assuming the Prince of this world truely knows that truly Christ will rise from the dead they would not have crucified the king of glory. 1Cor. 2:7-8.</p>
+												   
+												   <p>7. Resurrection brings us  a new body and a new life. Glorious, spiritual and incorruptible. 1Cor. 15:42-48.</p>
+												   
+												   <p>8. Risen men are New Creation, Unique life now emerges where their is no class, status, title or position Christ is all in all. Col. 3:11.</p>
+												   
+												   <p>9. Resurrection is not just a doctrine, but a personality. It is Personified in Christ. John 11: 25-26.</p>
+												   
+												   <p>10. There is a spirit that raised Christ from the dead and that is a quickening Spirit. It quickens mortal body. ROm 8:11</p>
+												   
+												   <p>11.  No man rose from the dead to live again for ever, only Christ. Rom 6:</p>9
+												   
+												   <p>12. When a man like Lazarus met the Resurrection and the life, his story changed for good. John 11: 40-46.</p>
+												   
+												   Hallelujah, it is your turn to experience and encounter the risen Lord, the resurrection and life.<br/> <br/>
+												   
+												   
+												   <p class="justify"><strong>Conclusion:</strong> Beloved, I plead with you, if you have not understood the power, implications,  treasures and 
+												   possibilities of a resurrected life, wake up and stair up yourself to receive insight that will liberate 
+												   you from the things that ordinarily holds men down.</p> 
+												   
+												   <p>Your brother,</p>
+												   
+												   <p>Abraham Akanmu</p>
+												   
+												   <p>SHALOM</p>
+													
+												 <strong><p><a href="message2.html"><span><span class="mx-2">&bullet;</span>Message: Ye are the light of the world</span></a> <a href="message3.html"><span><span class="mx-2">&bullet;</span>Message: In whos's image are you?</span></a></p></strong>
+											</header>
+								</div>
+							</div>
+							<div class="col-4 col-12-narrower">
+								<div id="sidebar">
+
+									<!-- Sidebar -->
+
+										<section>
+											<h3>Join Us</h3>
+											<p class="justify">We invite you to join us on this journey of faith and discovery. 
+											   Whether you are seeking spiritual nourishment, meaningful connections, 
+											   or simply a place to belong, you are welcome here at Manna Evangel Faith 
+											   Assembly. Together, let us continue to grow in grace and share the boundless 
+											   love of God with the world</p>
+											<footer>
+												<!--<a href="#" class="button">Continue Reading</a>-->
+											</footer>
+										</section>
+
+										<section>
+											<h3>Ministries of the Church</h3>
+											<ul class="links">
+												<li><a href="ministry.html">Evangel Group of Schools</a></li>
+												<li><a href="ministry.html">Evangel Free Schools</a></li>
+												<li><a href="ministry.html">Evangel Leadership Bible School</a></li>
+												<li><a href="ministry.html">Evangel Missions</a></li>
+												<li><a href="ministry.html">Evangel Outreach and Church Planting Dept.</a></li>
+												<li><a href="ministry.html">Apostolic Faith Group</a></li>
+												<li><a href="ministry.html">December Prayer Camp</a></li>
+												<li><a href="ministry.html">Jesus Students Congress</a></li>
+											</ul>
+											<footer>
+												<!--<a href="#" class="button">More Random Links</a>-->
+											</footer>
+										</section>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+			<div>
+		</div>
+	</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!---------------------------------------------------------------------------->
+<div style="padding-top: 0;"> 
+	<div class="section bg-white mx-2 mx-md-5 sec-services-wrap">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
+					<span class="subheading mb-4 d-block" style="padding-top: 0;">Our Services</span>
+					<h2 class="mb-4 heading">Church Services</h2>
+
+				</div>
+			</div>
+
+			<div class="row g-5">
+				<div class="col-lg-4" data-aos="fade-up" data-aos-delay="0">
+					<div class="service text-center">
+						<span class="icon-home mb-4 d-block"></span>
+						<h3 class="heading">Worship</h3>
+						<p>In our worship services, we create an atmosphere where hearts are stirred, souls are refreshed, 
+							and spirits are renewed. Worship at Manna Evangel Faith Assembly is characterized by authenticity and sincerity. </p>
+						
+					</div>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+					<div class="service text-center">
+						<span class="icon-leaf mb-4 d-block"></span>
+						<h3 class="heading">Baptism</h3>
+						<p>Baptism holds a central place in the spiritual journey of believers at Manna Evangel Faith Assembly. 
+							It symbolizes not only a public declaration of one's faith but also a profound spiritual transformation </p>
+						
+					</div>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+					<div class="service text-center">
+						<span class="icon-book mb-4 d-block"></span>
+						<h3 class="heading">Exhortation</h3>
+						<p>Exhortation plays a vital role in the life of the community at Manna Evangel Faith Assembly. It is the 
+							practice of encouraging, uplifting, and motivating one another to live out our faith boldly and faithfully. </p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	<div class="section sec-cta bg-secondary">
+		<div class="container">
+			<div class="row align-items-center" data-aos="fade-up">
+				<div class="col-lg-9 text-center text-md-start mb-4 mb-md-0">
+					<h2 class="heading text-white">Get better by hearing our sermons</h2>
+				</div>		
+				<div class="col-lg-3 text-center text-md-end" data-aos="fade-up" data-aos-delay="100">
+					<a href="contact.html" class="btn btn-primary py-3 px-5">Join Us</a>
+				</div>
+
+			</div>		
+		</div>		
+	</div>
+
+
+
+		<!--------------FOOTER SECTION------------------>
+		<div class="site-footer bg-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="widget">
+							<h3>Contact</h3>
+							<h3>MANNA EVANGEL FAITH ASSEMBLY</h3>
+							<h3>Estb: Feb. 1989</h3>
+							<address>No 1, Evangel Close, Oppst Fadama 3, Buba Shongo, Gombe</address>
+							<address>P.O.Box 960, Gombe</address>
+							<ul class="list-unstyled links">
+								<li><a>MEDIA:<br/> +234 703 220 5835</a></li>
+								<li><a>SECRETARIAT:<br/> +234 803 776 5145</a></li>
+							</ul>
+								<h3>COUNSELLING AND PRAYERS:</h3>
+							<ul class="list-unstyled links">
+								<li><a>MISSIONS:<br/> +234 803 768 7262</a></li>
+							</ul>
+								<!--<li><a href="mailto:info@mydomain.com">info@mydomain.com</a></li>-->
+							
+						</div> <!-- /.widget -->
+					</div> <!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<div class="widget">
+							<h3>Sources</h3>
+							<ul class="list-unstyled float-start links">
+								<li><a href="aboutus.html">Vission</a></li>
+								<li><a href="aboutus.html">Mission</a></li>
+								<li><a href="aboutus.html">History</a></li>
+								<li><a href="history.html">Registration</a></li>
+								<li><a href="history.html">Jubilee</a></li>
+								<li><a href="history.html">Genesis</a></li>
+							</ul>
+							<div class="widget">
+							<ul class="list-unstyled float-start links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="aboutus.html">About us</a></li>
+								<li><a href="ministry.html">Ministeries</a></li>
+								<li><a href="events.html">Gallery</a></li>
+								<li><a href="contact.html">Contact us</a></li>
+							</ul>
+						</div>
+						</div> <!-- /.widget -->
+					</div> <!-- /.col-lg-4 -->
+	
+					
+					<div class="col-lg-4">
+						<div class="widget">
+							<h3>Ministeries fo the Church</h3>
+							
+								<address><a href="ministry.html">Evangel Group of Schools</a></address>
+								<address><a href="ministry.html">Evangel Free Schools</a></address>
+								<address><a href="ministry.html">Evangel Leadership Bible School</a></address>
+								<address><a href="ministry.html">Evangel Missions</a></address>
+								<address><a href="ministry.html">Evangel Outreach and Church Planting Dept.</a></address>
+								<address><a href="ministry.html">Apostolic Faith Group</a></address>
+								<address><a href="ministry.html">December Prayer Camp</a></address>
+								<address><a href="ministry.html">Jesus Students Congress</a></address>
+							
+								<h3 style="color:black"><strong>Connect with us on:</strong></h3>
+								<ul class="list-unstyled social">
+								<li><a href="https://www.facebook.com/profile.php?id=61558634182968"><span class="icon-facebook"></span></a></li>
+								<!-- <li><a href="#"><span class="icon-instagram"></span></a></li>
+								<li><a href="#"><span class="icon-twitter"></span></a></li>
+								<li><a href="#"><span class="icon-linkedin"></span></a></li>
+								<li><a href="#"><span class="icon-pinterest"></span></a></li>
+								<li><a href="#"><span class="icon-dribbble"></span></a></li> -->
+							</ul>
+						</div> <!-- /.widget -->
+					</div> <!-- /.col-lg-4 -->
+				</div> <!-- /.row -->
+				
+	
+				<div class="row mt-5">
+					<div class="col-12 text-center">
+						<div class="popup">
+						<div class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; <span class="popuptext" id="myPopup">Call me : +234 7060758339</span>Designed by <a>Techlod</a></div> 
+						</div>
+					</div>
+				</div>
+			</div> <!-- /.container -->
+		</div> <!-- /.site-footer -->
+	
+		 <!--------------END OF FOOTER SECTION------------------>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/glightbox.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/custom.js"></script>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	
+</body>
+</html>

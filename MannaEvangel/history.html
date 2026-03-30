@@ -1,0 +1,580 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="images/logo.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap5" />
+	
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/glightbox.min.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+
+		
+	<!-- <link rel="stylesheet" href="odin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="odin/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+	<link rel="stylesheet" href="odin/css/style.css"> -->
+
+	<!----------slider css----------->
+
+
+
+	<title>Mannaevangel</title>
+	<style>
+		/* Styling for the popup */
+		.popup {
+			position: relative;
+			display: inline-block;
+			cursor: pointer;
+		}
+	
+		/* Styling for the popup text */
+		.popup .popuptext {
+			visibility: hidden;
+			width: 160px;
+			background-color: #555;
+			color: #fff;
+			text-align: center;
+			border-radius: 6px;
+			padding: 8px 0;
+			position: absolute;
+			z-index: 1;
+			bottom: 125%;
+			left: 50%;
+			margin-left: -80px;
+		}
+	
+		/* Show the popup text when hovering over the popup container */
+		.popup:hover .popuptext {
+			visibility: visible;
+		}
+
+		#sliding-images {
+		position: relative;
+		z-index: 1;
+	}
+	
+	#header {
+		position: relative;
+		z-index: 0;
+		background-color: #0e8996;
+		margin-bottom: 0px;
+	}
+	#miko {
+
+		background-color:white;
+	}
+
+	.justify{
+		text-align:justify;
+	}
+	</style>
+</head>
+<body >
+
+	<div class="site-mobile-menu site-navbar-target" >
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav" id="header">
+		<div class="container">
+			<div class="site-navigation">
+				<a href="index.html" class="logo m-0 float-left"><img src=images/logo.png width="50" height="50"  alt=mannaevangel>  Manna Evangel Faith Assembly</a>
+
+				<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+					<li><a href="index.html">Home</a></li>
+					<li  class="active"><a href="aboutus.html">About us</a></li>
+					<!-- <li class="has-children">
+						<a href="sermons.html">About us</a>
+						<ul class="dropdown">
+							<li><a href="sermons.html">Sermons</a></li>
+							<li><a href="sermons-single.html">Sermons Single</a></li>
+							<li class="has-children">
+								<a href="#">Dropdown</a>
+								<ul class="dropdown">
+									<li><a href="#">Sub Menu One</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li> -->
+					<li><a href="ministry.html">Ministries</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<!-- <li class="cta-button"><a href="contact.html">Request a prayer</a></li> -->
+				</ul>
+
+				<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+					<span></span>
+				</a>
+				
+			</div>
+		</div>
+	</nav>
+
+<!-------------slider top-------------------------------------------------->
+
+<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+	  <li data-target="carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	  <li data-target="carouselExampleIndicators" data-slide-to="1"></li>
+	  <li data-target="carouselExampleIndicators" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img class="d-block w-100" src="images/ban1.jpg" alt="First slide">
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="images/ban2.jpg" alt="Second slide">
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="images/d1.jpg" alt="Third slide">
+	  </div>
+	</div>
+	<a class="carousel-control-prev" href="carouselExampleIndicators" role="button" data-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="carouselExampleIndicators" role="button" data-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Next</span>
+	</a>
+  </div>  -->
+<!----------------------------------------------------------------------------------->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	<ol class="carousel-indicators">
+	  <li data-target="carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	  <li data-target="carouselExampleIndicators" data-slide-to="1"></li>
+	  <li data-target="carouselExampleIndicators" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img class="d-block w-100" src="images/ban1.jpg" alt="First slide">
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="images/ban2.jpg" alt="Second slide">
+	  </div>
+	  <div class="carousel-item">
+		<img class="d-block w-100" src="images/d1.jpg" alt="Third slide">
+	  </div>
+	</div>
+	<a class="carousel-control-prev" href="carouselExampleIndicators" role="button" data-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="carouselExampleIndicators" role="button" data-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="sr-only">Next</span>
+	</a>
+  </div> 
+	<!-------------end slider top-------------------------------------------------->
+
+<!--------------------------------------------------------->
+	<!--Who We Are-->
+	<div style="padding-bottom: 0;"  ></div>
+	<div class="section bg-white mx-2 mx-md-5 sec-services-wrap">
+	<div class="container">
+	
+	<div class="intro-text" data-aos="fade-up">
+		<div class="is-preload">
+		<div id="page-wrapper">
+
+
+			<!-- Main -->
+				<section class="wrapper style1">
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-8 col-12-narrower">
+								<div id="content">
+
+									<!-- Content -->
+
+										<article>
+											<header>
+												<h2 class="mb-4 heading">Brief History Of Manna Evangel Faith Assembly</h2>
+												<strong>THE GENESIS:</strong><br/>
+												<p class="justify">In the year 1981 a handful of zealous Christian Youth Corpers 
+												   serving the Nation in Gombe Township met regularly to have constant 
+												   fellowship weekly at the residence of Brother Clement Anegbe (late) 
+												   who was also on Youth Service with Nasara Motors then. On completion 
+												   his compulsory one year youth service he took up an appointment with 
+												   the Federal College of Education Technical Gombe as an instructor at 
+												   the Technical Dept., of the college. That led to the continuity of the 
+												   fellowship in his official residence. Over the years the fellowship grew 
+												   numerically and there was need to have a means of identification, since it 
+												   was non-denominational and unique in its outreach, therefore a name was coined 
+												   for it in 1985, called Gombe Family Fellowship (GFF). The fellowship provided 
+												   a good spiritual rendezvous for youthful Christians from various denominational 
+												   background and doctrinal persuasion.  
+												</p>
+											</header>
+
+											<span class="image featured"><img src="images/logo.png" alt="" text-align="center" width="250" height="200"/></span>
+
+											<br/>
+											<br/>
+											<p class="justify"> 
+												By the year 1986 the number grew steadily to the point that the living room the fellowship 
+												was held could no longer contain the eager growing population of seekers and worshippers.  
+												Over time a bigger hall of meeting was acquired on short tenancy basis and we were able to 
+												move the crowd in, under the able leadership of Brother Clement Anegbe and his Wife Julia 
+												we experienced tremendous from many of the ministers in town and some endorsed the unique 
+												forum provided for spiritual experience and growth because of the enriching content of the programs.    
+												Beyond having regular fellowship the dimension of reaching out in Open Air crusades and 
+												aggressive evangelism in street corners, brothels and hotels became the order of the day 
+												with the brethren in GFF. 
+												<p class="justify">Furthermore Ministerial Conferences were also organized in the 
+												then Capital, which was Bauchi in the Conference Halls of prestigious hotels like Zaranda 
+												and Awala. Some of those meetings were co-sponsored by Rev. Bankole Akinmola of world outreach 
+												Mission Int. Atlanta USA and Rev. Howard Pitman of the Gospel on Wheel fame, The GFF played 
+												host to them while they were here. In quick succession a second conference, Ministers Leadership 
+												Conference (MILE 1998) followed at Redeemed Peoples’ Mission church Bauchi. More Resources Person 
+												came along from USA came in to, lend a helping hand; among them was Rev. (Mrs.) Nancy Powella 
+												and her team.</p>  
+												<p class="justify">Back at Gombe Deliverance meetings and Marriage Seminar teachings with renowned Guest Speakers 
+												brought in from across the country brought in to resource such programs. Those meetings coupled 
+												with several outreaches we had stirred up the body of Christ in Gombe greatly especially the Youth, 
+												students and honest seekers after the new wave of anointing sweeping across the country as at that time. 
+												With all these programs the number of converts increased and membership of the fellowship swell 
+												and it became obvious we need more space to take care of the growing population. Worthy of note 
+												were the converts that came in with no particular Church affiliation in Gombe and they need to be 
+												followed up and properly disciples to make them grounded and firmly established in the Gospel.</p><br/>
+
+												<strong class="justify">EVANGEL WAS BORN: </strong><br/>
+												As the fellowship grew there was the need to provide a solid doctrinal base for 
+												the New converts and to avoid clashes with churches we started a regular Sunday service on the 24th 
+												February 1989.  We got this conviction after long time of protected prayers and seeking God’s face 
+												for direction. With this development  converts who needed enrichment and other spiritual nourishment 
+												that was not readily available else were or where they were no strong will on the part of the churches 
+												to provide needed leadership and  going the extra length to established this converts we fully keyed in 
+												to church planting project. 
+												<p class="justify">The nucleus family and person that pioneered the work were: Late Clement and Julia Anegbe, Akanmu Abraham 
+												and family, Gbenga Oyeniran and Family, Femi Ogunrinde and family, Rose Akpe (Military officer then), Late 
+												Collins Okwona, Late Cordilia OLuigbo  and Daughter, Oladayo Elijah Akinkunmi. Nene Ekpeyong, Kareem Haruna, 
+												Joseph Avwhuri and many others. As a young congregation Evangelism was our main focus, aggressive outreaches 
+												were embarked on from time to time to rescues the perishing. Our Effort in reaching out had a good measure of 
+												success, many souls were won and many joined the church.</p><br/>
+
+												<strong>LEADERSHIP OF THE YOUNG CHURCH: </strong><br/>
+												<p class="justify">The holy Spirit too absolute control the issue of Leadership was not difficult 
+												to determine, the crop of potential leaders were not ambitious persons but humble and willing hands ready to 
+												serve in whatever capacity the Holy Spirit position them. The following were the pioneer Leaders: 
+												•	President: Late Rev, Clement Anegbe
+												•	Pastor: Akanmu Abraham
+												•	Gbenga Oyeniran
+												•	Late Julia Anegbe… Women co-ordinator’ 
+												•	 Late Elder Ignatius Agharanya………. Adviser. Member of Assemblies of God, Gombe.</p><br/>
+
+												<strong>JUBILEE: </strong><br/>
+												<p class="justify">Our annual flagship program held at that time was tagged JUBILEE. Therefore, Jubilee 1989, 1990 
+												and 1991 were very unique in bringing down God’s glory to many lives in Gombe. At that time deliverance 
+												ministration and baptism of the Holy Spirit was novel to most of the Churches in Gombe. Notable among the 
+												great Evangelist and Preachers  used of God that time ( just to mention a few) were: 
+												•	Rev. Yemi Ayodel………. From Ibadan … now based in Huston Texas, USA.
+												•	Rev. Moses Aransiola………..From Ibadan… Gesthemene Prayer Ministry.
+												•	Evangelist Chidozie …..From Aba….He rose from the dead after few days.</p><br/>
+
+												 <strong>WE ORDAINED ELDERS: </strong><br/>
+												 <p class="justify">As the ministry work grows there was great demand to  bring others on board the Ministry 
+												 Leadership hence the first set of elders were ordained in April, 1990. They were:
+												•	Oladayo Elijah Akinkunmi
+												•	Micheal Adeniyi
+												•	Late Daniel Owolabi
+												•	Jonas Ogbuka
+												  And again in the year 1991 the following were ordained as Pastors: 
+												•	Gambo Yusuf
+												•	Gbenga Oyeniran
+												•	Joseph Avwhuri 
+													   
+												 Also, same year Late Rev, Clement was also ordained Reverend and was commissioned to go to relocate to Jos 
+												 to start a fresh work tagged; Center for Life Long Education in Ministry (CLEM). 
+												Following his relocation the Pastor Akanmu Abraham assumed the full Leadership of the Gombe work.</p> 
+
+												<br><strong>VISION OF THE CHURCH: </strong></br>
+												<p>Reaching the world with the whole word by being at the frontline of apostolic ministry, 
+												bringing the saints to be well equipped for the work of the Ministry and perfection.</p><br/>
+
+												 <strong>MISSION: </strong></br>
+												 To actualize the vision the ministry has settled for a four prong approach through:<br/>
+												• <strong>Evangelism:</strong> To do contextual relevant Evangelism and win souls for the Lord.<br/> 
+												• <strong>DISCIPLESHIP:</strong> Disciples making using apostolic pattern.<br/> 
+												• <strong>ECCLESIA:</strong> Church and School planting and Market place Ministry.<br/> 
+												• <strong>INTERCESSION:</strong> Prayer for revival of the Church of God and the Nation.<br/> <br/> 
+												
+												<strong>REGISTRATION:</strong><br/> 
+												The Ministry was officially registered with Corporate Affairs commission 16th January, 2009. 
+												As at the time of registration the following were the registered Trustee: Pastor Gambo; Avwhuri Joseph; 
+												Akinkunmi Oladayo Elijah, Nene Ekpeyong Bassey (Late) and Akanmu Olarewaju Abraham (Chairman and Presiding Pastor)<br/><br/>  
+
+												<strong>THIRTY FIVE YEARS DOWN THE LINE: </strong><br/>
+												Over the past thirty five years of the Ministry God has been indeed very 
+												faithful! Though it has not been a smooth sail all the way, but a catalogue of milestone achievements as 
+												stated below gives us reason to release litany of praise to the glory of God.<br/><br/>
+												<strong>1.</strong> TWENTY churches has been planted over the past thirty five years, but twelve of them are vibrant and standing 
+												to the glory of God.<br/> 
+												<strong>2.</strong> Converts and disciples raised through outreaches, schools, student congresses and other programs that has 
+												blessed the community are innumerable. Many of such now runs ministries, NGOs while others who have moved on to 
+												other cities have been zealously involved in the work God with great impact.<br/>											 
+												<strong>3.</strong> Total of 55 Pastors and Ministers have been ordained over these past years, while some have been called to glory, 
+												some have moved on to other ministries or calling they received, others have continued on with the work in earnest.<br/>
+												<strong>4.</strong> CHILDREN OF “FALLEN HEROS” : Children of Pastors who died in the course of active service have not been neglected 
+												at all, scholarship to get them through first degree of their education has been faithfully sustained.<br/>   
+												<strong>5.</strong> Evangel Group of Schools on two campuses comprising of 4 Departments; College, Primary, Accelerated Christian 
+												Education, Switch. On. School (SOS) with a total of 1200 students and pupils and about 150 academic and none /academic Staff.<br/> 
+												<strong>6.</strong> Seven Free community based Schools established in villages and rural areas are running concurrently with the fees 
+												paying ones.<br/> 
+												<strong>7.</strong> Building and landed property of the Ministry Nationwide will run into hundreds of millions when valued at the current 
+												market rate.<br/> <br/>  
+												This is to mention just a few of the great things God has done in the past years through the instrumentality of many of 
+												his servants who have been committed fully to advance the kingdom of God in the ways the know best according to the pattern 
+												shown to best and the grace released on their lives to achieve all the above. 
+											
+
+								</div>
+							</div>
+							<div class="col-4 col-12-narrower">
+								<div id="sidebar">
+
+									<!-- Sidebar -->
+
+										<section>
+											<h3>Join Us</h3>
+											<p class="justify">We invite you to join us on this journey of faith and discovery. 
+											   Whether you are seeking spiritual nourishment, meaningful connections, 
+											   or simply a place to belong, you are welcome here at Manna Evangel Faith 
+											   Assembly. Together, let us continue to grow in grace and share the boundless 
+											   love of God with the world</p>
+											<footer>
+												<!--<a href="#" class="button">Continue Reading</a>-->
+											</footer>
+										</section>
+
+										<section>
+											<h3>Ministries of the Church</h3>
+											<ul class="links">
+												<li><a href="ministry.html">Evangel Group of Schools</a></li>
+												<li><a href="ministry.html">Evangel Free Schools</a></li>
+												<li><a href="ministry.html">Evangel Leadership Bible School</a></li>
+												<li><a href="ministry.html">Evangel Missions</a></li>
+												<li><a href="ministry.html">Evangel Outreach and Church Planting Dept.</a></li>
+												<li><a href="ministry.html">Apostolic Faith Group</a></li>
+												<li><a href="ministry.html">December Prayer Camp</a></li>
+												<li><a href="ministry.html">Jesus Students Congress</a></li>
+											</ul>
+											<footer>
+												<!--<a href="#" class="button">More Random Links</a>-->
+											</footer>
+										</section>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+			<div>
+		</div>
+	</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!---------------------------------------------------------------------------->
+<div style="padding-top: 0;"> 
+	<div class="section bg-white mx-2 mx-md-5 sec-services-wrap">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-lg-7 mx-auto text-center" data-aos="fade-up">
+					<span class="subheading mb-4 d-block" style="padding-top: 0;">Our Services</span>
+					<h2 class="mb-4 heading">Church Services</h2>
+
+				</div>
+			</div>
+
+			<div class="row g-5">
+				<div class="col-lg-4" data-aos="fade-up" data-aos-delay="0">
+					<div class="service text-center">
+						<span class="icon-home mb-4 d-block"></span>
+						<h3 class="heading">Worship</h3>
+						<p>In our worship services, we create an atmosphere where hearts are stirred, souls are refreshed, 
+							and spirits are renewed. Worship at Manna Evangel Faith Assembly is characterized by authenticity and sincerity. </p>
+						
+					</div>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+					<div class="service text-center">
+						<span class="icon-leaf mb-4 d-block"></span>
+						<h3 class="heading">Baptism</h3>
+						<p>Baptism holds a central place in the spiritual journey of believers at Manna Evangel Faith Assembly. 
+							It symbolizes not only a public declaration of one's faith but also a profound spiritual transformation </p>
+						
+					</div>
+				</div>
+				<div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+					<div class="service text-center">
+						<span class="icon-book mb-4 d-block"></span>
+						<h3 class="heading">Exhortation</h3>
+						<p>Exhortation plays a vital role in the life of the community at Manna Evangel Faith Assembly. It is the 
+							practice of encouraging, uplifting, and motivating one another to live out our faith boldly and faithfully. </p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	<div class="section sec-cta bg-secondary">
+		<div class="container">
+			<div class="row align-items-center" data-aos="fade-up">
+				<div class="col-lg-9 text-center text-md-start mb-4 mb-md-0">
+					<h2 class="heading text-white">Get better by hearing our sermons</h2>
+				</div>		
+				<div class="col-lg-3 text-center text-md-end" data-aos="fade-up" data-aos-delay="100">
+					<a href="contact.html" class="btn btn-primary py-3 px-5">Join Us</a>
+				</div>
+
+			</div>		
+		</div>		
+	</div>
+
+
+
+		<!--------------FOOTER SECTION------------------>
+		<div class="site-footer bg-white">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="widget">
+							<h3>Contact</h3>
+							<h3>MANNA EVANGEL FAITH ASSEMBLY</h3>
+							<h3>Estb: Feb. 1989</h3>
+							<address>No 1, Evangel Close, Oppst Fadama 3, Buba Shongo, Gombe</address>
+							<address>P.O.Box 960, Gombe</address>
+							<ul class="list-unstyled links">
+								<li><a>MEDIA:<br/> +234 703 220 5835</a></li>
+								<li><a>SECRETARIAT:<br/> +234 803 776 5145</a></li>
+							</ul>
+								<h3>COUNSELLING AND PRAYERS:</h3>
+							<ul class="list-unstyled links">
+								<li><a>MISSIONS:<br/> +234 803 768 7262</a></li>
+							</ul>
+								<!--<li><a href="mailto:info@mydomain.com">info@mydomain.com</a></li>-->
+							
+						</div> <!-- /.widget -->
+					</div> <!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<div class="widget">
+							<h3>Sources</h3>
+							<ul class="list-unstyled float-start links">
+								<li><a href="aboutus.html">Vission</a></li>
+								<li><a href="aboutus.html">Mission</a></li>
+								<li><a href="aboutus.html">History</a></li>
+								<li><a href="history.html">Registration</a></li>
+								<li><a href="history.html">Jubilee</a></li>
+								<li><a href="history.html">Genesis</a></li>
+							</ul>
+							<div class="widget">
+							<ul class="list-unstyled float-start links">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="aboutus.html">About us</a></li>
+								<li><a href="ministry.html">Ministeries</a></li>
+								<li><a href="events.html">Gallery</a></li>
+								<li><a href="contact.html">Contact us</a></li>
+							</ul>
+						</div>
+						</div> <!-- /.widget -->
+					</div> <!-- /.col-lg-4 -->
+	
+					
+					<div class="col-lg-4">
+						<div class="widget">
+							<h3>Ministeries fo the Church</h3>
+							
+								<address><a href="ministry.html">Evangel Group of Schools</a></address>
+								<address><a href="ministry.html">Evangel Free Schools</a></address>
+								<address><a href="ministry.html">Evangel Leadership Bible School</a></address>
+								<address><a href="ministry.html">Evangel Missions</a></address>
+								<address><a href="ministry.html">Evangel Outreach and Church Planting Dept.</a></address>
+								<address><a href="ministry.html">Apostolic Faith Group</a></address>
+								<address><a href="ministry.html">December Prayer Camp</a></address>
+								<address><a href="ministry.html">Jesus Students Congress</a></address>
+							
+								<h3 style="color:black"><strong>Connect with us on:</strong></h3>
+								<ul class="list-unstyled social">
+								<li><a href="https://www.facebook.com/profile.php?id=61558634182968"><span class="icon-facebook"></span></a></li>
+								<!-- <li><a href="#"><span class="icon-instagram"></span></a></li>
+								<li><a href="#"><span class="icon-twitter"></span></a></li>
+								<li><a href="#"><span class="icon-linkedin"></span></a></li>
+								<li><a href="#"><span class="icon-pinterest"></span></a></li>
+								<li><a href="#"><span class="icon-dribbble"></span></a></li> -->
+							</ul>
+						</div> <!-- /.widget -->
+					</div> <!-- /.col-lg-4 -->
+				</div> <!-- /.row -->
+				
+	
+				<div class="row mt-5">
+					<div class="col-12 text-center">
+						<div class="popup">
+						<div class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; <span class="popuptext" id="myPopup">Call me : +234 7060758339</span>Designed by <a>Techlod</a></div> 
+						</div>
+					</div>
+				</div>
+			</div> <!-- /.container -->
+		</div> <!-- /.site-footer -->
+	
+		 <!--------------END OF FOOTER SECTION------------------>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/glightbox.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/custom.js"></script>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	
+
+
+	<!---------SLIDER JS---------->
+	
+</body>
+</html>
