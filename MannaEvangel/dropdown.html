@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Dropdown Menu</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      background: #333;
+      color: white;
+      padding: 10px 15px;
+      position: relative;
+    }
+
+    .logo {
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    /* HAMBURGER */
+    .menu-toggle {
+      display: none;
+    }
+
+    .menu-icon {
+      font-size: 24px;
+      cursor: pointer;
+      position: absolute;
+      right: 15px;
+      top: 10px;
+    }
+
+    /* MENU */
+    .menu {
+      display: none;
+      flex-direction: column;
+      background: #444;
+      margin-top: 10px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      padding: 12px;
+      border-top: 1px solid #555;
+    }
+
+    .menu a:hover {
+      background: #555;
+    }
+
+    /* TOGGLE EFFECT */
+    .menu-toggle:checked + .menu-icon + .menu {
+      display: flex;
+    }
+
+    /* DESKTOP VIEW */
+    @media (min-width: 768px) {
+      .menu-icon {
+        display: none;
+      }
+
+      .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background: none;
+      }
+
+      .menu a {
+        border: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logo">MySite</div>
+
+    <!-- Hidden Checkbox -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+    <!-- Hamburger Icon -->
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <!-- Menu -->
+    <div class="menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+</body>
+</html>

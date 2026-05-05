@@ -1,0 +1,448 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  body {
+    background-color: #F6F4E8;
+  }
+
+  /* GALLERY STYLING */
+  .gallerycontainer {
+    color: black;
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-weight: 600;
+  }
+
+  /* Gallery Grid */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.4s ease;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+  }
+
+  /* Lightbox */
+  .lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s ease;
+  }
+
+  .lightbox.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 15px;
+    transform: scale(0.8);
+    transition: 0.4s ease;
+  }
+
+  .lightbox.active img {
+    transform: scale(1);
+  }
+
+  /* Controls */
+  .controls {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 20px;
+  }
+
+  .btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  /* Close button */
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .caption {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    backdrop-filter: blur(5px);
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .gallerytitle {
+    font-size: 20px;
+    font-family: 'icomoon';
+    padding-left: 20px;
+    margin-top: 50px;
+  }
+
+  .gallerywriteup {
+    padding: 20px;
+    color: gray;
+  }
+
+  /* SITE STYLING */
+  /* SITE STYLING */
+
+  .topnav1 {
+    background-color: #2C736B;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+
+  .logoname1 {
+    display: flex;
+    align-items: center;
+    margin-left: 110px;
+  }
+
+  .logo1 {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+  }
+
+  .name1 {
+    font-family: 'icomoon';
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .linknav1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+    width: 25%;
+  }
+
+  .linknav1 li {
+    list-style: none;
+  }
+
+  .linknav1 li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .menubarx{
+    display: none;
+  }
+
+  .topBanner {
+    width: 100%;
+    height: 650px;
+  }
+
+  .contentBody {
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: white;
+    padding: 60px;
+    justify-content: space-between;
+    line-height: 1.5;
+  }
+
+  .bodytext {
+    color: gray;
+  }
+
+  .freeschoolheading {
+    font-family: 'icomoon';
+    font-size: 25px;
+  }
+
+  .leftdivide {
+    width: 65%;
+  }
+
+  .rightdivide {
+    width: 30%;
+  }
+
+  .gallinks {
+    list-style: none;
+  }
+
+  .gallinks li a {
+    text-decoration: none;
+    color: gray;
+  }
+
+  .servicesection1 {
+    background-color: white;
+    padding: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 600px;
+    z-index: 999;
+    position: absolute;
+  }
+
+  .ourservicetitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: green;
+  }
+
+  .churchservicetitle {
+    display: flex;
+    font-family: 'icomoon';
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 40px;
+  }
+
+  .servicecontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+
+  .servicebody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .serviceimgs {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .servicetitle {
+    display: flex;
+    justify-content: center;
+    font-family: 'icomoon';
+    font-size: 20px;
+    margin-bottom: -10px;
+  }
+
+  .servtext {
+    padding: 20px;
+    text-align: center;
+    color: gray;
+
+  }
+
+  .barsection {
+    background-color: #2C736B;
+    width: 100%;
+    height: 300px;
+    margin-top: 580px;
+  }
+
+  .barsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    color: white;
+
+  }
+  
+  .bartext{
+    font-family: 'icomoon';
+    font-size: 40px;
+  }
+
+  .barbutton{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(52, 143, 52);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+
+  /* FOOTER SECTION */
+
+  .footersectionx{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: gray;
+    width: 100%;
+    height: 550px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 80px;
+  }
+
+  .footerclass1{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.9;
+  }
+  
+  .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 20px;
+}
+
+.footerclass1 h4 a{
+  text-decoration: none;
+  color: gray;
+}
+
+.footerclass1 h4 a:hover{
+  color:blue;
+}
+
+@media screen and (max-width:1150px){
+    .logoname1{
+    margin-left: 10px;
+  }
+  .menubarx{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+  }
+  .topBanner{
+    width: 100%;
+    height: 200px;
+  }
+  .linknav1{
+    display: none;
+  }
+}
+
+@media screen and (max-width:600px){
+  .logoname1{
+    margin-left: 10px;
+  }
+  .menubarx{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+  }
+  .topBanner{
+    width: 100%;
+    height: 200px;
+  }
+  .linknav1{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding-left: 10px;
+  }
+  .contentBody{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+  }
+  .leftdivide{
+    width: 100%;
+  }
+  .bodytext{
+    width: 100%;
+  }
+  .rightdivide{
+    width: 100%;
+  }
+  .servicesection1{
+    padding: 0;
+    width: 84%;
+    height: fit-content;
+  }
+  .servicecontent{
+    display: flex;
+    flex-direction: column;
+  }
+  .barsection{
+    margin-top: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .bartext{
+    font-size: 25px;
+  }
+  .footersectionx{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+  }
+}
